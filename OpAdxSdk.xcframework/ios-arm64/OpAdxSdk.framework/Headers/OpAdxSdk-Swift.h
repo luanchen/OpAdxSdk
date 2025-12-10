@@ -455,36 +455,36 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) OpAdxAdSize 
 + (OpAdxAdSize * _Nonnull)ANCHORED_ADAPTIVE SWIFT_WARN_UNUSED_RESULT;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) OpAdxAdSize * _Nonnull BANNER_MREC;)
 + (OpAdxAdSize * _Nonnull)BANNER_MREC SWIFT_WARN_UNUSED_RESULT;
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) OpAdxAdSize * _Nonnull BANNER_2x3;)
-+ (OpAdxAdSize * _Nonnull)BANNER_2x3 SWIFT_WARN_UNUSED_RESULT;
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) OpAdxAdSize * _Nonnull BANNER_1x4;)
-+ (OpAdxAdSize * _Nonnull)BANNER_1x4 SWIFT_WARN_UNUSED_RESULT;
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) OpAdxAdSize * _Nonnull BANNER_9x20;)
-+ (OpAdxAdSize * _Nonnull)BANNER_9x20 SWIFT_WARN_UNUSED_RESULT;
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) OpAdxAdSize * _Nonnull BANNER_1x2;)
-+ (OpAdxAdSize * _Nonnull)BANNER_1x2 SWIFT_WARN_UNUSED_RESULT;
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) OpAdxAdSize * _Nonnull BANNER_9x16;)
-+ (OpAdxAdSize * _Nonnull)BANNER_9x16 SWIFT_WARN_UNUSED_RESULT;
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) OpAdxAdSize * _Nonnull BANNER_5x6;)
-+ (OpAdxAdSize * _Nonnull)BANNER_5x6 SWIFT_WARN_UNUSED_RESULT;
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) OpAdxAdSize * _Nonnull BANNER_1x1;)
-+ (OpAdxAdSize * _Nonnull)BANNER_1x1 SWIFT_WARN_UNUSED_RESULT;
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) OpAdxAdSize * _Nonnull BANNER_3x2;)
-+ (OpAdxAdSize * _Nonnull)BANNER_3x2 SWIFT_WARN_UNUSED_RESULT;
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) OpAdxAdSize * _Nonnull BANNER_2x1;)
-+ (OpAdxAdSize * _Nonnull)BANNER_2x1 SWIFT_WARN_UNUSED_RESULT;
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) OpAdxAdSize * _Nonnull BANNER_5x2;)
-+ (OpAdxAdSize * _Nonnull)BANNER_5x2 SWIFT_WARN_UNUSED_RESULT;
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) OpAdxAdSize * _Nonnull BANNER_3x1;)
-+ (OpAdxAdSize * _Nonnull)BANNER_3x1 SWIFT_WARN_UNUSED_RESULT;
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) OpAdxAdSize * _Nonnull BANNER_4x1;)
-+ (OpAdxAdSize * _Nonnull)BANNER_4x1 SWIFT_WARN_UNUSED_RESULT;
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) OpAdxAdSize * _Nonnull BANNER_4x1_LARGE;)
-+ (OpAdxAdSize * _Nonnull)BANNER_4x1_LARGE SWIFT_WARN_UNUSED_RESULT;
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) OpAdxAdSize * _Nonnull BANNER_6x1;)
-+ (OpAdxAdSize * _Nonnull)BANNER_6x1 SWIFT_WARN_UNUSED_RESULT;
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) OpAdxAdSize * _Nonnull BANNER_8x1;)
-+ (OpAdxAdSize * _Nonnull)BANNER_8x1 SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) OpAdxAdSize * _Nonnull BANNER_320x480;)
++ (OpAdxAdSize * _Nonnull)BANNER_320x480 SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) OpAdxAdSize * _Nonnull BANNER_160x600;)
++ (OpAdxAdSize * _Nonnull)BANNER_160x600 SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) OpAdxAdSize * _Nonnull BANNER_360x800;)
++ (OpAdxAdSize * _Nonnull)BANNER_360x800 SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) OpAdxAdSize * _Nonnull BANNER_300x600;)
++ (OpAdxAdSize * _Nonnull)BANNER_300x600 SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) OpAdxAdSize * _Nonnull BANNER_720x1080;)
++ (OpAdxAdSize * _Nonnull)BANNER_720x1080 SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) OpAdxAdSize * _Nonnull BANNER_250x300;)
++ (OpAdxAdSize * _Nonnull)BANNER_250x300 SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) OpAdxAdSize * _Nonnull BANNER_250x250;)
++ (OpAdxAdSize * _Nonnull)BANNER_250x250 SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) OpAdxAdSize * _Nonnull BANNER_480x320;)
++ (OpAdxAdSize * _Nonnull)BANNER_480x320 SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) OpAdxAdSize * _Nonnull BANNER_600x300;)
++ (OpAdxAdSize * _Nonnull)BANNER_600x300 SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) OpAdxAdSize * _Nonnull BANNER_728x280;)
++ (OpAdxAdSize * _Nonnull)BANNER_728x280 SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) OpAdxAdSize * _Nonnull BANNER_300x100;)
++ (OpAdxAdSize * _Nonnull)BANNER_300x100 SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) OpAdxAdSize * _Nonnull BANNER_380x100;)
++ (OpAdxAdSize * _Nonnull)BANNER_380x100 SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) OpAdxAdSize * _Nonnull BANNER_970x250;)
++ (OpAdxAdSize * _Nonnull)BANNER_970x250 SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) OpAdxAdSize * _Nonnull BANNER_300x50;)
++ (OpAdxAdSize * _Nonnull)BANNER_300x50 SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) OpAdxAdSize * _Nonnull BANNER_728x90;)
++ (OpAdxAdSize * _Nonnull)BANNER_728x90 SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)isEqual:(id _Nullable)object SWIFT_WARN_UNUSED_RESULT;
 @property (nonatomic, readonly) NSUInteger hash;
 @property (nonatomic, readonly, copy) NSString * _Nonnull description;
@@ -645,7 +645,6 @@ SWIFT_CLASS("_TtC8OpAdxSdk17OpAdxBannerAdView")
 /// \param seconds custom auto refresh interval in seconds, will be limited to acceptable range.
 ///
 - (void)setAutoRefreshInterval:(NSInteger)seconds;
-/// This method could be called only once, when it’s invoked again it will be ignored with none callback.
 - (void)loadAdWithListener:(OpAdxBannerAdListenerImp * _Nonnull)listener;
 /// 设置是否启用自动刷新
 - (void)setAutoRefreshEnabled:(BOOL)enabled;
@@ -704,6 +703,7 @@ SWIFT_CLASS("_TtC8OpAdxSdk19OpAdxInterstitialAd")
 /// \param listener The listener to handle load events
 ///
 - (void)loadWithPlacementId:(NSString * _Nonnull)placementId listener:(id <OpAdxInterstitialAdLoadListener> _Nonnull)listener;
+- (void)loadRtbWithPlacementId:(NSString * _Nonnull)placementId bidResponse:(NSString * _Nonnull)bidResponse listener:(id <OpAdxInterstitialAdLoadListener> _Nonnull)listener;
 @end
 
 @protocol OpAdxInterstitialAdDelegate;
@@ -798,7 +798,7 @@ SWIFT_CLASS("_TtC8OpAdxSdk13OpAdxNativeAd")
 - (void)unregister;
 - (BOOL)isAdInvalidated SWIFT_WARN_UNUSED_RESULT;
 - (void)destroy;
-- (void)loadAdWithPlacementId:(NSString * _Nonnull)placementId listener:(id <OpAdxNativeAdListener> _Nonnull)listener;
+- (void)loadAdWithPlacementId:(NSString * _Nonnull)placementId bidResponse:(NSString * _Nullable)bidResponse listener:(id <OpAdxNativeAdListener> _Nonnull)listener;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -936,6 +936,15 @@ SWIFT_CLASS("_TtC8OpAdxSdk21OpAdxNativeAdRootView")
 @end
 
 @interface OpAdxNativeAdRootView (SWIFT_EXTENSION(OpAdxSdk))
+/// Objective-C 兼容的方法，使用字符串参数
+/// \param positionStr 位置字符串
+///
+/// \param onPrivacyClick 点击回调
+///
+- (void)addAdChoiceViewAtStr:(NSString * _Nonnull)positionStr onPrivacyClick:(void (^ _Nonnull)(void))onPrivacyClick;
+@end
+
+@interface OpAdxNativeAdRootView (SWIFT_EXTENSION(OpAdxSdk))
 /// 将字符串转换为 AdChoicePosition
 /// \param positionStr 位置字符串
 ///
@@ -943,15 +952,6 @@ SWIFT_CLASS("_TtC8OpAdxSdk21OpAdxNativeAdRootView")
 /// returns:
 /// AdChoicePosition，默认为 topRight
 + (enum AdChoicePosition)stringToAdChoicePosition:(NSString * _Nonnull)positionStr SWIFT_WARN_UNUSED_RESULT;
-@end
-
-@interface OpAdxNativeAdRootView (SWIFT_EXTENSION(OpAdxSdk))
-/// Objective-C 兼容的方法，使用字符串参数
-/// \param positionStr 位置字符串
-///
-/// \param onPrivacyClick 点击回调
-///
-- (void)addAdChoiceViewAtStr:(NSString * _Nonnull)positionStr onPrivacyClick:(void (^ _Nonnull)(void))onPrivacyClick;
 @end
 
 SWIFT_PROTOCOL("_TtP8OpAdxSdk38OpAdxOnSdkInitCompleteListenerProtocol_")
@@ -1000,6 +1000,7 @@ SWIFT_CLASS("_TtC8OpAdxSdk15OpAdxRewardedAd")
 /// \param listener The listener to handle load events
 ///
 - (void)loadWithPlacementId:(NSString * _Nonnull)placementId listener:(id <OpAdxRewardedAdLoadListener> _Nonnull)listener;
+- (void)loadRtbWithPlacementId:(NSString * _Nonnull)placementId bidResponse:(NSString * _Nonnull)bidResponse listener:(id <OpAdxRewardedAdLoadListener> _Nonnull)listener;
 @end
 
 @protocol OpAdxRewardedAdDelegate;
