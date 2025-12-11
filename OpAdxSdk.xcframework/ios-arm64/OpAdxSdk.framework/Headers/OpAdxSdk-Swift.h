@@ -892,6 +892,8 @@ SWIFT_PROTOCOL("_TtP8OpAdxSdk21OpAdxNativeAdDelegate_")
 - (void)nativeAdDidClick:(OpAdxNativeAdBridge * _Nonnull)nativeAd;
 /// 原生广告点击处理完成
 - (void)nativeAdDidFinishHandlingClick:(OpAdxNativeAdBridge * _Nonnull)nativeAd;
+/// 原生隐私图标被点击
+- (void)nativeAdDidPrivacyClick:(OpAdxNativeAdBridge * _Nonnull)nativeAd;
 @end
 
 /// The listener to be invoked during the lifecycle of a native ad.
