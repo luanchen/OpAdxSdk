@@ -1,0 +1,16 @@
+PODS:
+  - OpAdxSdk (1.0.1)
+
+DEPENDENCIES:
+  - OpAdxSdk
+
+SPEC REPOS:
+  trunk:
+    - OpAdxSdk
+
+SPEC CHECKSUMS:
+  OpAdxSdk: c07b9f6cce91ca6f92155c8350a1569a932cbb09
+
+PODFILE CHECKSUM: 0ace27bf964c332fdf9771a416877de440f237d2
+
+COCOAPODS: 1.16.2

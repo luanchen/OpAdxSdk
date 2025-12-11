@@ -1,0 +1,6 @@
+framework module Pods_OpAdxSdkDemo {
+  umbrella header "Pods-OpAdxSdkDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
