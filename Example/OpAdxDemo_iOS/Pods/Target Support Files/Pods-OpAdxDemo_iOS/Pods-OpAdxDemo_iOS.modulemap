@@ -1,6 +1,0 @@
-framework module Pods_OpAdxDemo_iOS {
-  umbrella header "Pods-OpAdxDemo_iOS-umbrella.h"
-
-  export *
-  module * { export * }
-}

@@ -49,7 +49,6 @@
         [self destroyAd];
         return;
     }
-    [self.nativeAd setAdChoicePosition:AdChoicePositionTopRight];
     OpAdxNativeAdView *nativeAdView = [[OpAdxNativeAdView alloc]initWithFrame: CGRectMake(0, 0, 400, self.view.bounds.size.height-12*2)];
     
     // 创建并配置原生广告视图
@@ -74,7 +73,7 @@
     [NSLayoutConstraint activateConstraints:constraints];
     
     OpAdxNativeAdRootView *rootView = [[OpAdxNativeAdRootView alloc]initWithRoot:nativeAdView];
-    [self.nativeAd registerViewForInteractionWithRootView:rootView interactionViews:nativeAdView.interactionViews];
+    [self.nativeAd registerViewForInteractionWithRootView:rootView interactionViews:nativeAdView.interactionViews adChoicePosition: AdChoicePositionTopRight];
     
     [self disableShowAd];
     [self enableDestroyAd];
@@ -104,9 +103,9 @@
     
 }
 
-- (void)nativeAd:(OpAdxNativeAdBridge *)nativeAd didFailWithError:(NSError *)error {
+- (void)nativeAd:(OpAdxNativeAdBridge *)nativeAd didFailWithError:(OpAdxAdError *)error {
     NSLog(@"[ADX] Native广告加载失败: %@ %@", nativeAd.placementID, error);
-    [self.logView print:error.localizedDescription];
+    [self.logView print:error.message];
     
 }
 
@@ -118,12 +117,6 @@
 - (void)nativeAdWillLogImpression:(OpAdxNativeAdBridge *)nativeAd {
     NSLog(@"[ADX] Native广告展示: %@", nativeAd.placementID);
     [self.logView print:@"onAdImpression"];
-    
-}
-
-- (void)nativeAdDidPrivacyClick:(OpAdxNativeAdBridge *)nativeAd {
-    NSLog(@"[ADX] Native点击隐私图标: %@", nativeAd.placementID);
-    [self.logView print:@"onPrivacyClick"];
     
 }
 

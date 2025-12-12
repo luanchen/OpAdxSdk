@@ -63,6 +63,8 @@
         [bannerAdView.centerYAnchor constraintEqualToAnchor:self.adContainer.centerYAnchor],
         [bannerAdView.widthAnchor constraintEqualToAnchor:self.adContainer.widthAnchor],
         [bannerAdView.heightAnchor constraintEqualToAnchor:self.adContainer.heightAnchor],
+//        [bannerAdView.widthAnchor constraintEqualToConstant:OpAdxAdSize.BANNER_MREC.width],
+//        [bannerAdView.heightAnchor constraintEqualToConstant:OpAdxAdSize.BANNER_MREC.height],
     ];
     
     [NSLayoutConstraint activateConstraints:constraints];
@@ -102,9 +104,9 @@
     
 }
 
-- (void)bannerAd:(OpAdxBannerAdBridge *)bannerAd didFailWithError:(NSError *)error {
+- (void)bannerAd:(OpAdxBannerAdBridge *)bannerAd didFailWithError:(OpAdxAdError *)error {
     NSLog(@"[ADX] Banner广告加载失败: %@", error);
-    [self.logView print:error.localizedDescription];
+    [self.logView print:error.message];
     
 }
 

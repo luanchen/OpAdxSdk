@@ -79,9 +79,9 @@
     
 }
 
-- (void)interstitialAd:(OpAdxInterstitialAdBridge *)interstitialAd didFailWithError:(NSError *)error {
+- (void)interstitialAd:(OpAdxInterstitialAdBridge *)interstitialAd didFailWithError:(OpAdxAdError *)error {
     NSLog(@"[ADX] Interstitial广告加载失败: %@ %@", interstitialAd.placementID, error);
-    [self.logView print:error.localizedDescription];
+    [self.logView print:error.message];
     
 }
 
