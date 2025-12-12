@@ -793,7 +793,7 @@ SWIFT_CLASS("_TtC8OpAdxSdk13OpAdxNativeAd")
 - (NSString * _Nullable)descriptionStr SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nullable)callToAction SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nullable)sponsor SWIFT_WARN_UNUSED_RESULT;
-- (void)registerInteractionViewsWithContainer:(OpAdxNativeAdRootView * _Nonnull)container interactionViews:(OpAdxInteractionViews * _Nonnull)interactionViews;
+- (void)registerInteractionViewsWithContainer:(OpAdxNativeAdRootView * _Nonnull)container interactionViews:(OpAdxInteractionViews * _Nonnull)interactionViews adChoicePosition:(enum AdChoicePosition)adChoicePosition;
 - (void)setAdChoicePosition:(enum AdChoicePosition)position;
 - (void)unregister;
 - (BOOL)isAdInvalidated SWIFT_WARN_UNUSED_RESULT;
@@ -845,7 +845,7 @@ SWIFT_CLASS("_TtC8OpAdxSdk19OpAdxNativeAdBridge")
 ///
 /// \param interactionViews 交互视图配置
 ///
-- (void)registerViewForInteractionWithRootView:(OpAdxNativeAdRootView * _Nonnull)rootView interactionViews:(OpAdxInteractionViews * _Nonnull)interactionViews;
+- (void)registerViewForInteractionWithRootView:(OpAdxNativeAdRootView * _Nonnull)rootView interactionViews:(OpAdxInteractionViews * _Nonnull)interactionViews adChoicePosition:(enum AdChoicePosition)adChoicePosition;
 /// 注册视图进行交互（带视图控制器）
 /// \param rootView 原生广告根视图
 ///
@@ -853,7 +853,7 @@ SWIFT_CLASS("_TtC8OpAdxSdk19OpAdxNativeAdBridge")
 ///
 /// \param viewController 用于展示模态内容的视图控制器
 ///
-- (void)registerViewForInteractionWithRootView:(OpAdxNativeAdRootView * _Nonnull)rootView interactionViews:(OpAdxInteractionViews * _Nonnull)interactionViews viewController:(UIViewController * _Nullable)viewController;
+- (void)registerViewForInteractionWithRootView:(OpAdxNativeAdRootView * _Nonnull)rootView interactionViews:(OpAdxInteractionViews * _Nonnull)interactionViews viewController:(UIViewController * _Nullable)viewController adChoicePosition:(enum AdChoicePosition)adChoicePosition;
 /// 注册视图进行交互（完整配置）
 /// \param rootView 原生广告根视图
 ///
@@ -863,15 +863,11 @@ SWIFT_CLASS("_TtC8OpAdxSdk19OpAdxNativeAdBridge")
 ///
 /// \param clickableViews 可点击视图数组
 ///
-- (void)registerViewForInteractionWithRootView:(OpAdxNativeAdRootView * _Nonnull)rootView interactionViews:(OpAdxInteractionViews * _Nonnull)interactionViews viewController:(UIViewController * _Nullable)viewController clickableViews:(NSArray<UIView *> * _Nullable)clickableViews;
+- (void)registerViewForInteractionWithRootView:(OpAdxNativeAdRootView * _Nonnull)rootView interactionViews:(OpAdxInteractionViews * _Nonnull)interactionViews viewController:(UIViewController * _Nullable)viewController clickableViews:(NSArray<UIView *> * _Nullable)clickableViews adChoicePosition:(enum AdChoicePosition)adChoicePosition;
 /// 取消注册视图
 - (void)unregisterView;
 /// 销毁广告
 - (void)destroy;
-/// 设置广告选择图标位置
-/// \param position 图标位置
-///
-- (void)setAdChoicePosition:(enum AdChoicePosition)position;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -892,8 +888,6 @@ SWIFT_PROTOCOL("_TtP8OpAdxSdk21OpAdxNativeAdDelegate_")
 - (void)nativeAdDidClick:(OpAdxNativeAdBridge * _Nonnull)nativeAd;
 /// 原生广告点击处理完成
 - (void)nativeAdDidFinishHandlingClick:(OpAdxNativeAdBridge * _Nonnull)nativeAd;
-/// 原生隐私图标被点击
-- (void)nativeAdDidPrivacyClick:(OpAdxNativeAdBridge * _Nonnull)nativeAd;
 @end
 
 /// The listener to be invoked during the lifecycle of a native ad.
