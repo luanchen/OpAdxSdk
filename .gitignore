@@ -1,0 +1,10 @@
+OperaAdxSDK.xcodeproj/xcuserdata/
+OpAdxDemo_iOS.xcworkspace/
+Pods/
+*.swp
+Podfile.lock
+.DS_Store
+OperaAdxSDK.xcodeproj/project.xcworkspace/xcuserdata/
+OMSDK_Opera.xcframework/
+*.framework/
+OpAdxSdk.framework/

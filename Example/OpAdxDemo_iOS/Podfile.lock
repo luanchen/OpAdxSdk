@@ -1,5 +1,5 @@
 PODS:
-  - OpAdxSdk (1.0.1)
+  - OpAdxSdk (1.0.2)
 
 DEPENDENCIES:
   - OpAdxSdk
@@ -9,7 +9,7 @@ SPEC REPOS:
     - OpAdxSdk
 
 SPEC CHECKSUMS:
-  OpAdxSdk: c07b9f6cce91ca6f92155c8350a1569a932cbb09
+  OpAdxSdk: d142a11c19a8708463b46a7e947358dcbc5d8e15
 
 PODFILE CHECKSUM: 0ace27bf964c332fdf9771a416877de440f237d2
 
