@@ -33,9 +33,6 @@
     
     OpAdxBannerAdBridge *bannerAd = [[OpAdxBannerAdBridge alloc] initWithPlacementId:placementID adSize:OpAdxAdSize.BANNER_MREC];
     self.bannerAdView = bannerAd;
-    bannerAd.presentingViewControllerProvider = ^UIViewController * _Nullable{
-        return weakSelf;
-    };
     bannerAd.delegate = self;
     [bannerAd loadAd];
 }

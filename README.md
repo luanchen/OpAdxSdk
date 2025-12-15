@@ -87,10 +87,6 @@ Banner 广告通常显示在应用界面的顶部或底部。
     
     // 2. 设置代理和视图控制器提供者
     self.bannerAdView.delegate = self;
-    __weak typeof(self) weakSelf = self;
-    self.bannerAdView.presentingViewControllerProvider = ^UIViewController * _Nullable{
-        return weakSelf;
-    };
     
     // 3. 加载广告
     [self.bannerAdView loadAd];
@@ -309,12 +305,7 @@ class BannerViewController: UIViewController {
         bannerAdView?.setPlacementId("YOUR_PLACEMENT_ID")
         bannerAdView?.setAdSize(.BANNER_MREC) // 设置尺寸
         
-        // 3. 设置当前控制器提供者
-        bannerAdView?.presentingViewControllerProvider = { [weak self] in
-            return self
-        }
-        
-        // 4. 创建监听器并加载
+        // 3. 创建监听器并加载
         let listener = OpAdxBannerAdListenerImp(
             onAdLoaded: { [weak self] bannerAdInfo in
                 print("Banner Loaded")

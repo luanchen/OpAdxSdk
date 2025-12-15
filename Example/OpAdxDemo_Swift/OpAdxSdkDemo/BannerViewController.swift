@@ -31,9 +31,7 @@ class BannerViewController: BaseViewController {
         
         bannerAdView?.setPlacementId(placementId!)
         bannerAdView?.setAdSize(.BANNER_MREC)
-        bannerAdView?.presentingViewControllerProvider = { [weak self] in
-            return self
-        }
+
         // 创建遵循 BannerAdListener 协议的实例
         let listener = OpAdxBannerAdListenerImp(
            onAdLoaded: { [weak self] bannerAdInfo in

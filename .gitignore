@@ -1,6 +1,6 @@
 OpAdxDemo_iOS.xcodeproj/xcuserdata/
 OpAdxDemo_iOS.xcworkspace/
-Pods/
+*/Pods/
 *.swp
 Podfile.lock
 .DS_Store
