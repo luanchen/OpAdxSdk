@@ -1,15 +1,12 @@
-# OpAdxSdk
------
-
-# OpAdxSdk iOS Integration Guide
+# OpAdxSdk iOS (1.1.0) Integration Guide
 
 OpAdxSdk 是一个高性能的 iOS 移动广告 SDK，支持 Banner、插屏、激励视频以及原生广告等多种格式，提供先进的广告定位和报表能力。
 
 ## Requirements
 
-  * **iOS 12.0+** 
+  * **iOS 15.6+** 
   * **CocoaPods**
-  * **Xcode 14.0+** (Recommended)
+  * **Xcode 16.4+**
   * **Swift 5.0+** 
 
 ## Installation
