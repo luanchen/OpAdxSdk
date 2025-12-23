@@ -18,43 +18,43 @@
 		</data>
 		<key>Modules/OpAdxSdk.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		hsASnRL1o6PblDSVdMNSzPNoxW8=
+		5IBuZ8U51FlEM1crAIxWikFIx5U=
 		</data>
 		<key>Modules/OpAdxSdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		2+VBaWBBsWOIwm9NjXvqoceXp4c=
+		fJqNL1hapmWUz7ughQH9CJpdfcQ=
 		</data>
 		<key>Modules/OpAdxSdk.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		hIAWxf38nECLew6AwRQgx4jgrS0=
+		L+SPqJ/7V+U3Bhe7folWonDx/U4=
 		</data>
 		<key>Modules/OpAdxSdk.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		2+VBaWBBsWOIwm9NjXvqoceXp4c=
+		fJqNL1hapmWUz7ughQH9CJpdfcQ=
 		</data>
 		<key>Modules/OpAdxSdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		/4p2EczxgGRNj2PvYGMYgM6PF2Q=
+		VXd1XXbLW0gAdG5kz3IwaTol25E=
 		</data>
 		<key>Modules/OpAdxSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		hsASnRL1o6PblDSVdMNSzPNoxW8=
+		5IBuZ8U51FlEM1crAIxWikFIx5U=
 		</data>
 		<key>Modules/OpAdxSdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		BWhG2mBTprhn6mavCmXOg7gcG7s=
+		mlE9QpI6THxlHQiSqKVLSkGwJIc=
 		</data>
 		<key>Modules/OpAdxSdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		qipRbbO3rfkk57TodmklstdGcXQ=
+		BO9P3fmWVsSjqt8zKRDlEzoEIfU=
 		</data>
 		<key>Modules/OpAdxSdk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		BWhG2mBTprhn6mavCmXOg7gcG7s=
+		mlE9QpI6THxlHQiSqKVLSkGwJIc=
 		</data>
 		<key>Modules/OpAdxSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		6QoKHCAS9V03Bqn0QPiFPL6rEcc=
+		djZp/ThKt2gwuD+aku9BejzBoRM=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -77,70 +77,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JUSEbOQ4rKesEQ1aECTgkDb2G2f2cYOSB2op7S9FAS0=
+			sZpHkhSLNYirkHMJ/Up7IC8pxSRRwXH5DN23DYFR75o=
 			</data>
 		</dict>
 		<key>Modules/OpAdxSdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CuIYm8QE5fbz++7Bif5xx+f66dXUF9CtXaM/yVk0+GQ=
+			k3RAPrcBlWayuvCP/O5UCeWaP9p//aX/rR3r9fe5/iY=
 			</data>
 		</dict>
 		<key>Modules/OpAdxSdk.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yCQrm0aTT35oq6LjU9Fv9jnc86neiwq24cKgMI/qNYI=
+			/wPZ1GAFX6peBYN2dcdklBJE5Y2dTGslanAjVmz7uuw=
 			</data>
 		</dict>
 		<key>Modules/OpAdxSdk.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CuIYm8QE5fbz++7Bif5xx+f66dXUF9CtXaM/yVk0+GQ=
+			k3RAPrcBlWayuvCP/O5UCeWaP9p//aX/rR3r9fe5/iY=
 			</data>
 		</dict>
 		<key>Modules/OpAdxSdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			l0L+1uClAlC4d0GNs4Gn5pCyGwhy/61544tcWNZjY1w=
+			lhxGWI95UJy6JInSrniSBfxNzAIdhy3xgyV8aMY1PLg=
 			</data>
 		</dict>
 		<key>Modules/OpAdxSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JUSEbOQ4rKesEQ1aECTgkDb2G2f2cYOSB2op7S9FAS0=
+			sZpHkhSLNYirkHMJ/Up7IC8pxSRRwXH5DN23DYFR75o=
 			</data>
 		</dict>
 		<key>Modules/OpAdxSdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aoAUQBzA/goXLDVioFQAE1/FABxWRgb87UEoNaUzCvA=
+			WYeeXynMJCQifoqTTZ6Pi5PrK2MHpWQI+bVDtmzxK20=
 			</data>
 		</dict>
 		<key>Modules/OpAdxSdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			R6oZB5f79DBEoGdPczSxIuS3rd5JUgt9QGvdnDRq8WU=
+			8wkhKdBBLHeoomLb6KgpqVfCC2pl8qFygUeTiUz1QdU=
 			</data>
 		</dict>
 		<key>Modules/OpAdxSdk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aoAUQBzA/goXLDVioFQAE1/FABxWRgb87UEoNaUzCvA=
+			WYeeXynMJCQifoqTTZ6Pi5PrK2MHpWQI+bVDtmzxK20=
 			</data>
 		</dict>
 		<key>Modules/OpAdxSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SdWtaYgWeLB6Ql1kiVdAC+H4mQsjzQ5YdU7YLWD9OvE=
+			mwnFUqzauZbnJT6+vabpO4X8V/sWsLyFrguy/luvmFY=
 			</data>
 		</dict>
 	</dict>
