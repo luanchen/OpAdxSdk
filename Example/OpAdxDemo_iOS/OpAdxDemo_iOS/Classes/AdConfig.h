@@ -21,7 +21,6 @@ typedef NS_ENUM(NSInteger, AdFormat) {
 @interface AdConfig : NSObject
 
 + (BOOL)useTestAd;
-+ (BOOL)useAndroidConfig;
 + (NSString *)applicationId;
 + (NSString *)iOSAppId;
 

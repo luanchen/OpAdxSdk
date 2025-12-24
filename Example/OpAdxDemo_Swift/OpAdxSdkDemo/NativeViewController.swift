@@ -93,7 +93,7 @@ class NativeViewController: BaseViewController {
             nativeAdView.bottomAnchor.constraint(equalTo: adContainer.bottomAnchor),
         ])
         
-        nativeAd.registerInteractionViews(container: OpAdxNativeAdRootView(root: nativeAdView), interactionViews: nativeAdView.interactionViews)//akai
+        nativeAd.registerInteractionViews(container: OpAdxNativeAdRootView(root: nativeAdView), interactionViews: nativeAdView.interactionViews, adChoicePosition: .topRight)//akai
         
         disableShowAd()
         enableDestroyAd()

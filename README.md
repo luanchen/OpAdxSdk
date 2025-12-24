@@ -1,6 +1,7 @@
-# OpAdxSdk iOS (1.1.0) Integration Guide
+# OpAdxSdk iOS (2.2.1) Integration Guide (Object-C)
 
 OpAdxSdk 是一个高性能的 iOS 移动广告 SDK，支持 Banner、插屏、激励视频以及原生广告等多种格式，提供先进的广告定位和报表能力。
+
 
 ## Requirements
 
@@ -8,7 +9,16 @@ OpAdxSdk 是一个高性能的 iOS 移动广告 SDK，支持 Banner、插屏、�
   * **CocoaPods**
   * **Xcode 16.4+**
   * **Swift 5.0+** 
+  
+---  
+## 回调处理模式 (Event Handling)
 
+OpAdxSdk 根据语言特性提供了两种不同的事件回调方式：
+
+* **Objective-C**: 使用标准的 **Delegate (代理)** 模式。你需要遵守相应的协议（如 `OpAdxBannerAdDelegate`）并实现代理方法。
+* **Swift**: 使用 **Listener (监听器)** 模式。通过创建 Listener 实现类（如 `OpAdxBannerAdListenerImp`），你可以直接使用闭包 (Closures) 来处理回调，代码更加紧凑。
+
+---
 ## Installation
 
 ### CocoaPods
@@ -28,7 +38,7 @@ end
 pod install
 ```
 
-重要: 在你的工程中target-General-Framework,添加OpAdxSdk.xcframework,并设置Embed&Sign
+重要: 在你的工程中target-General-Framework，添加OpAdxSdk.xcframework，并设置为 **Embed & Sign**。
 
 ## Initialization
 
@@ -49,6 +59,9 @@ pod install
     OpAdxSdkInitConfig *initConfig = [OpAdxSdkInitConfig createWithApplicationId:applicationId 
                                                                         iOSAppId:iOSAppId 
                                                                    publisherName:nil];
+        
+    // (可选) 设置测试模式 
+    //initConfig.useTestAd = YES;
     
     // 初始化 SDK
     [OpAdxSdkCore.shared initializeSDKWithConfig:initConfig];
@@ -251,7 +264,8 @@ Banner 广告通常显示在应用界面的顶部或底部。
 }
 ```
 
-# OpAdxSdk iOS Integration Guide (Swift)
+---  
+# OpAdxSdk iOS (2.2.1) Integration Guide (Swift)
 
 重要: 在你的工程中target-General-Framework,添加OpAdxSdk.xcframework,并设置Embed&Sign
 
@@ -269,7 +283,7 @@ func initializeSDK() {
         iOSAppId: "YOUR_IOS_APP_ID"
     )
     
-    // (可选) 设置测试模式
+    // (可选) 设置测试模式 
     // initConfig.useTestAd = true 
     
     // 2. 初始化 SDK

@@ -22,6 +22,7 @@
     NSString *iOSAppId = @"1444253128";
     
     OpAdxSdkInitConfig *initConfig = [OpAdxSdkInitConfig createWithApplicationId:applicationId iOSAppId:iOSAppId publisherName:nil];
+    initConfig.useTestAd = YES;
     [OpAdxSdkCore.shared initializeSDKWithConfig:initConfig];
     
     return YES;
