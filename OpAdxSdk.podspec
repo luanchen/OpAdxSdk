@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "OpAdxSdk"
-  spec.version      = "2.2.1"
+  spec.version      = "2.2.2"
   spec.summary      = "A high-performance mobile advertising SDK for iOS."  
 
   # This description is used to generate tags and improve search results.
@@ -66,7 +66,7 @@ Pod::Spec.new do |spec|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  spec.platform     = :ios, "12.0"
+  spec.platform     = :ios, "15.6"
   spec.swift_version = "5.0"
 
   #  When using multiple platforms
@@ -98,6 +98,8 @@ Pod::Spec.new do |spec|
   #
 
   spec.vendored_frameworks = "OpAdxSdk.xcframework"
+  spec.static_framework = false
+
   # spec.source_files  = "Classes", "Classes/**/*.{h,m}"
   # spec.exclude_files = "Classes/Exclude"
 

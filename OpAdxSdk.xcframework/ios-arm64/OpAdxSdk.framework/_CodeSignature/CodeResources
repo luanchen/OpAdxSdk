@@ -14,27 +14,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		+msRoEEKMO7RFbQOUXHy9QZIhUc=
+		x6ai/uMW7+wG7Oic1FwAsxkogSw=
 		</data>
 		<key>Modules/OpAdxSdk.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		/pZM8Y/vsuiDd89gCfaC/0la2AE=
+		xr0CbVXw0Ij6i+8eDs2I+13yG0s=
 		</data>
 		<key>Modules/OpAdxSdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		tBrkoJVYThrCQzDs8iy/BQX9dis=
+		W0kndV/L7xXhM8pEAmqBQnnl/ns=
 		</data>
 		<key>Modules/OpAdxSdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		yas4f7wx2S1cJeYiPqtmv3lwoWA=
+		ubSIEaijgGdoHlMX8BJt4P7U2Bs=
 		</data>
 		<key>Modules/OpAdxSdk.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		tBrkoJVYThrCQzDs8iy/BQX9dis=
+		W0kndV/L7xXhM8pEAmqBQnnl/ns=
 		</data>
 		<key>Modules/OpAdxSdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		C3g6Yp0RBQpLCm92UBmX7QRvRrM=
+		7sBx2h1DuaWVG9/d/+A9xz0sf9U=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -57,35 +57,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Gq969Dc3n+V5KUu/xbHHcQyPv2x+udDTuFK+pvB6RjM=
+			ID0NAXt4T/sWy70UGpeX8PPX9ejdLnZOGsTUtjEVBJ8=
 			</data>
 		</dict>
 		<key>Modules/OpAdxSdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VGpO5IIUlVKo+CUyUuAvKceUEaW/EjmA+Pz+/E0M8gk=
+			ccdTWnsVcJvxNHdzzCb+PuEcMLbrYGUEhCFd2nsaC4M=
 			</data>
 		</dict>
 		<key>Modules/OpAdxSdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3i2gpOnYY45IhmZyOHo31xVoKgKLaAl5mFziigCy9SI=
+			qeebWp0GR2XOMmSeTzdP9VkkrZvNAUQ0yeM0Z+mO0AI=
 			</data>
 		</dict>
 		<key>Modules/OpAdxSdk.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VGpO5IIUlVKo+CUyUuAvKceUEaW/EjmA+Pz+/E0M8gk=
+			ccdTWnsVcJvxNHdzzCb+PuEcMLbrYGUEhCFd2nsaC4M=
 			</data>
 		</dict>
 		<key>Modules/OpAdxSdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DaVmJb0nGLy6LZw5dZvtvkJei1+BESDSUlYoGWp16T8=
+			VTJiVHRKaq3uVlCvcpqakpSnF1RA+AlOM6M0miqnQd0=
 			</data>
 		</dict>
 	</dict>
