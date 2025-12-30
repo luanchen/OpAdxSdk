@@ -360,11 +360,13 @@ SWIFT_PROTOCOL("_TtP8OpAdxSdk22OnUserRewardedListener_")
 - (void)onUserRewarded:(OpAdxRewardItem * _Nonnull)reward;
 @end
 
+@class NSError;
 SWIFT_CLASS("_TtC8OpAdxSdk12OpAdxAdError")
 @interface OpAdxAdError : NSObject
 @property (nonatomic, readonly) NSInteger code;
 @property (nonatomic, readonly, copy) NSString * _Nonnull message;
 - (nonnull instancetype)initWithCode:(NSInteger)code message:(NSString * _Nonnull)message OBJC_DESIGNATED_INITIALIZER;
+- (NSError * _Nonnull)nserror SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -782,6 +784,7 @@ SWIFT_CLASS("_TtC8OpAdxSdk14OpAdxMediaView")
 - (void)setImageScaleTypeWithString:(NSString * _Nonnull)scaleTypeString;
 @end
 
+@class NSDecimalNumber;
 @class OpAdxNativeAdRootView;
 @protocol OpAdxNativeAdListener;
 SWIFT_CLASS("_TtC8OpAdxSdk13OpAdxNativeAd")
@@ -791,8 +794,12 @@ SWIFT_CLASS("_TtC8OpAdxSdk13OpAdxNativeAd")
 - (CGSize)adSize SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nullable)title SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nullable)descriptionStr SWIFT_WARN_UNUSED_RESULT;
+- (NSDecimalNumber * _Nullable)starRating SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nullable)callToAction SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nullable)sponsor SWIFT_WARN_UNUSED_RESULT;
+- (NSURL * _Nullable)iconUrl SWIFT_WARN_UNUSED_RESULT;
+- (NSURL * _Nullable)imageUrl SWIFT_WARN_UNUSED_RESULT;
+- (OpAdxMediaView * _Nullable)mediaView SWIFT_WARN_UNUSED_RESULT;
 - (void)registerInteractionViewsWithContainer:(OpAdxNativeAdRootView * _Nonnull)container interactionViews:(OpAdxInteractionViews * _Nonnull)interactionViews adChoicePosition:(enum AdChoicePosition)adChoicePosition;
 - (void)setAdChoicePosition:(enum AdChoicePosition)position;
 - (void)unregister;
@@ -1076,7 +1083,7 @@ SWIFT_CLASS("_TtC8OpAdxSdk8OpAdxSDK")
 /// 初始化 SDK（Objective-C 风格）
 + (void)initializeWithConfig:(OpAdxSdkInitConfig * _Nonnull)initConfig;
 /// 初始化 SDK（带回调，Objective-C 风格）
-+ (void)initializeWithConfig:(OpAdxSdkInitConfig * _Nonnull)initConfig onSuccess:(void (^ _Nullable)(void))onSuccess onError:(void (^ _Nullable)(NSString * _Nonnull))onError;
++ (void)initializeWithConfig:(OpAdxSdkInitConfig * _Nonnull)initConfig onSuccess:(void (^ _Nullable)(void))onSuccess onError:(void (^ _Nullable)(NSError * _Nonnull))onError;
 /// 创建横幅广告（Objective-C 风格）
 + (OpAdxBannerAdBridge * _Nonnull)createBannerAdWith:(NSString * _Nonnull)placementId adSize:(OpAdxAdSize * _Nonnull)adSize SWIFT_WARN_UNUSED_RESULT;
 /// 创建标准横幅广告（320x50，Objective-C 风格）
@@ -1141,7 +1148,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) OpAdxSdkCore
 /// Objective-C 兼容的初始化状态检查
 - (BOOL)isSDKInitializing SWIFT_WARN_UNUSED_RESULT;
 /// Objective-C 兼容的错误回调包装器
-- (void)initializeWithCompletionWithInitConfig:(OpAdxSdkInitConfig * _Nonnull)initConfig onSuccess:(void (^ _Nonnull)(void))onSuccess onError:(void (^ _Nonnull)(NSString * _Nonnull))onError;
+- (void)initializeWithCompletionWithInitConfig:(OpAdxSdkInitConfig * _Nonnull)initConfig onSuccess:(void (^ _Nonnull)(void))onSuccess onError:(void (^ _Nonnull)(NSError * _Nonnull))onError;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -1586,11 +1593,13 @@ SWIFT_PROTOCOL("_TtP8OpAdxSdk22OnUserRewardedListener_")
 - (void)onUserRewarded:(OpAdxRewardItem * _Nonnull)reward;
 @end
 
+@class NSError;
 SWIFT_CLASS("_TtC8OpAdxSdk12OpAdxAdError")
 @interface OpAdxAdError : NSObject
 @property (nonatomic, readonly) NSInteger code;
 @property (nonatomic, readonly, copy) NSString * _Nonnull message;
 - (nonnull instancetype)initWithCode:(NSInteger)code message:(NSString * _Nonnull)message OBJC_DESIGNATED_INITIALIZER;
+- (NSError * _Nonnull)nserror SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -2008,6 +2017,7 @@ SWIFT_CLASS("_TtC8OpAdxSdk14OpAdxMediaView")
 - (void)setImageScaleTypeWithString:(NSString * _Nonnull)scaleTypeString;
 @end
 
+@class NSDecimalNumber;
 @class OpAdxNativeAdRootView;
 @protocol OpAdxNativeAdListener;
 SWIFT_CLASS("_TtC8OpAdxSdk13OpAdxNativeAd")
@@ -2017,8 +2027,12 @@ SWIFT_CLASS("_TtC8OpAdxSdk13OpAdxNativeAd")
 - (CGSize)adSize SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nullable)title SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nullable)descriptionStr SWIFT_WARN_UNUSED_RESULT;
+- (NSDecimalNumber * _Nullable)starRating SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nullable)callToAction SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nullable)sponsor SWIFT_WARN_UNUSED_RESULT;
+- (NSURL * _Nullable)iconUrl SWIFT_WARN_UNUSED_RESULT;
+- (NSURL * _Nullable)imageUrl SWIFT_WARN_UNUSED_RESULT;
+- (OpAdxMediaView * _Nullable)mediaView SWIFT_WARN_UNUSED_RESULT;
 - (void)registerInteractionViewsWithContainer:(OpAdxNativeAdRootView * _Nonnull)container interactionViews:(OpAdxInteractionViews * _Nonnull)interactionViews adChoicePosition:(enum AdChoicePosition)adChoicePosition;
 - (void)setAdChoicePosition:(enum AdChoicePosition)position;
 - (void)unregister;
@@ -2302,7 +2316,7 @@ SWIFT_CLASS("_TtC8OpAdxSdk8OpAdxSDK")
 /// 初始化 SDK（Objective-C 风格）
 + (void)initializeWithConfig:(OpAdxSdkInitConfig * _Nonnull)initConfig;
 /// 初始化 SDK（带回调，Objective-C 风格）
-+ (void)initializeWithConfig:(OpAdxSdkInitConfig * _Nonnull)initConfig onSuccess:(void (^ _Nullable)(void))onSuccess onError:(void (^ _Nullable)(NSString * _Nonnull))onError;
++ (void)initializeWithConfig:(OpAdxSdkInitConfig * _Nonnull)initConfig onSuccess:(void (^ _Nullable)(void))onSuccess onError:(void (^ _Nullable)(NSError * _Nonnull))onError;
 /// 创建横幅广告（Objective-C 风格）
 + (OpAdxBannerAdBridge * _Nonnull)createBannerAdWith:(NSString * _Nonnull)placementId adSize:(OpAdxAdSize * _Nonnull)adSize SWIFT_WARN_UNUSED_RESULT;
 /// 创建标准横幅广告（320x50，Objective-C 风格）
@@ -2367,7 +2381,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) OpAdxSdkCore
 /// Objective-C 兼容的初始化状态检查
 - (BOOL)isSDKInitializing SWIFT_WARN_UNUSED_RESULT;
 /// Objective-C 兼容的错误回调包装器
-- (void)initializeWithCompletionWithInitConfig:(OpAdxSdkInitConfig * _Nonnull)initConfig onSuccess:(void (^ _Nonnull)(void))onSuccess onError:(void (^ _Nonnull)(NSString * _Nonnull))onError;
+- (void)initializeWithCompletionWithInitConfig:(OpAdxSdkInitConfig * _Nonnull)initConfig onSuccess:(void (^ _Nonnull)(void))onSuccess onError:(void (^ _Nonnull)(NSError * _Nonnull))onError;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
