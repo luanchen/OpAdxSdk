@@ -784,7 +784,7 @@ SWIFT_CLASS("_TtC8OpAdxSdk14OpAdxMediaView")
 - (void)setImageScaleTypeWithString:(NSString * _Nonnull)scaleTypeString;
 @end
 
-@class NSDecimalNumber;
+@class NSNumber;
 @class OpAdxNativeAdRootView;
 @protocol OpAdxNativeAdListener;
 SWIFT_CLASS("_TtC8OpAdxSdk13OpAdxNativeAd")
@@ -794,7 +794,7 @@ SWIFT_CLASS("_TtC8OpAdxSdk13OpAdxNativeAd")
 - (CGSize)adSize SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nullable)title SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nullable)descriptionStr SWIFT_WARN_UNUSED_RESULT;
-- (NSDecimalNumber * _Nullable)starRating SWIFT_WARN_UNUSED_RESULT;
+- (NSNumber * _Nullable)starRating SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nullable)callToAction SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nullable)sponsor SWIFT_WARN_UNUSED_RESULT;
 - (NSURL * _Nullable)iconUrl SWIFT_WARN_UNUSED_RESULT;
@@ -819,7 +819,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSArray<NSStri
 @end
 
 @protocol OpAdxNativeAdDelegate;
-@class NSNumber;
 /// Objective-C 兼容的原生广告桥接类
 /// 提供 Delegate 模式，方便 Objective-C 调用
 SWIFT_CLASS("_TtC8OpAdxSdk19OpAdxNativeAdBridge")

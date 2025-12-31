@@ -1,3 +1,6 @@
+# OpAdxSdk iOS (2.2.5) Change Log (Object-C)
+由动态库转为静态库，只需要pod集成，不需要额外设置embed
+
 # OpAdxSdk iOS (2.2.1) Integration Guide (Object-C)
 
 OpAdxSdk 是一个高性能的 iOS 移动广告 SDK，支持 Banner、插屏、激励视频以及原生广告等多种格式，提供先进的广告定位和报表能力。
@@ -38,7 +41,8 @@ end
 pod install
 ```
 
-重要: 在你的工程中target-General-Framework，添加OpAdxSdk.xcframework，并设置为 **Embed & Sign**。
+重要: OpAdxSdk(2.2.5)版本以后,库由动态库转为静态库，不在需要以下设置。
+重要: (2.2.5)版本以前,在你的工程中target-General-Framework，添加OpAdxSdk.xcframework，并设置为 **Embed & Sign**。
 
 ## Initialization
 
